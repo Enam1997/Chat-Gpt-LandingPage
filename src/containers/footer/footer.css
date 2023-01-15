@@ -1,0 +1,139 @@
+.gpt__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-footer);
+}
+
+.gpt__footer-heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.gpt__footer-heading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -0.04em;
+}
+
+.gpt__footer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 10rem;
+  cursor: pointer;
+}
+
+.gpt__footer-button p {
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 21px;
+  word-spacing: 2px;
+  color: #ffffff;
+}
+
+.gpt__footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  text-align: left;
+}
+
+.gpt__footer-links div {
+  width: 250px;
+  margin: 1rem;
+}
+
+.gpt__footer-links__logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.gpt__footer-links__logo img {
+  width: 118px;
+  height: 30px;
+  margin-bottom: 1rem;
+}
+
+.gpt__footer-links__logo p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.gpt__footer-links__div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.gpt__footer-links__div h4 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.gpt__footer-links__div p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.gpt__footer-copyright {
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.gpt__footer-copyright p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 850px) {
+  .gpt__footer-heading h1 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt__footer-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .gpt__footer-links__div {
+    margin: 1rem 0;
+  }
+
+  .gpt__footer-button p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .gpt__footer-heading h1 {
+    font-size: 27px;
+    line-height: 38px;
+  }
+}
